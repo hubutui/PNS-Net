@@ -119,7 +119,7 @@ a single GeForce RTX 2080 GPU of 8 GB Memory.
 
     ```bash
     cd ./lib/PNS
-    python setup.py build develop
+    python setup.py build_ext --inplace
     ```
 
 1. Downloading necessary data:
